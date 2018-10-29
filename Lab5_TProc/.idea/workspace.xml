@@ -11,11 +11,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a5d36e1-e412-431a-95f9-766fef7d8f03" name="Default Changelist" comment="">
+    <list default="true" id="98ccc81b-09d6-4d64-b9aa-b86f4c5bc690" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Lab1_TFrac/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_TFrac/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2_TPNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2_TPNumber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3_TComplex/.idea/Lab3_TComplex.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3_TComplex/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3_TComplex/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3_TComplex/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3_TComplex/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab3_TComplex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3_TComplex/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4_TMemory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4_TMemory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lab5_TProc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab5_TProc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,102 +40,14 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cpp" value="3" />
-          <entry key="h" value="5" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cpp" value="14" />
-          <entry key="h" value="258" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="ObjectiveC" value="272" />
         </counts>
       </usages-collector>
     </session>
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TProc_test/main.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TProc/TProc.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding>
-                <element signature="e#120#129#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TProc_test/TProc_test.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TFrac/TFrac.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TFrac/TFrac.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/TProc/TProc.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/TProc_test/TProc_test.h" />
-        <option value="$PROJECT_DIR$/TProc/TProc.h" />
-        <option value="$PROJECT_DIR$/TProc_test/main.cpp" />
-        <option value="$PROJECT_DIR$/TFrac/TFrac.h" />
-        <option value="$PROJECT_DIR$/TFrac/TFrac.cpp" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -139,55 +61,21 @@
     <option name="width" value="697" />
     <option name="height" value="728" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Lab5_TProc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab5_TProc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab5_TProc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab5_TProc" type="462c0819:PsiDirectoryNode" />
-              <item name="TFrac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab5_TProc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab5_TProc" type="462c0819:PsiDirectoryNode" />
-              <item name="TProc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab5_TProc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab5_TProc" type="462c0819:PsiDirectoryNode" />
-              <item name="TProc_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab3_TComplex" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Studying\STP\Lab5_TProc" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Studying\STP\Lab5_TProc\TProc_test" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -222,35 +110,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1a5d36e1-e412-431a-95f9-766fef7d8f03" name="Default Changelist" comment="" />
-      <created>1540730503694</created>
+      <changelist id="98ccc81b-09d6-4d64-b9aa-b86f4c5bc690" name="Default Changelist" comment="" />
+      <created>1540807461698</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540730503694</updated>
-      <workItem from="1540730506171" duration="9328000" />
+      <updated>1540807461698</updated>
+      <workItem from="1540807463012" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9328000" />
+    <option name="totallyTimeSpent" value="17000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.64262295" />
+      <window_info anchor="bottom" id="Messages" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -265,58 +152,5 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TProc/TProc.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TFrac/TFrac.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TFrac/TFrac.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TProc_test/TProc_test.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TProc/TProc.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#120#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TProc_test/main.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
   </component>
 </project>

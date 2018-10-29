@@ -11,11 +11,36 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b374764e-8168-474f-98da-d5bca896d1e6" name="Default Changelist" comment="">
+    <list default="true" id="2fa4eb49-b9fd-4650-b3f2-1965d0fb9cac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Lab1_TFrac.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab1_TFrac.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2_TPNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2_TPNumber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2_TPNumber/.idea/Lab2_TPNumber.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2_TPNumber/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2_TPNumber/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2_TPNumber/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2_TPNumber/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2_TPNumber/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3_TComplex/.idea/Lab3_TComplex.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3_TComplex/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3_TComplex/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3_TComplex/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3_TComplex/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab3_TComplex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3_TComplex/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4_TMemory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4_TMemory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_TMemory/.idea/Lab4_TMemory.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_TMemory/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_TMemory/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_TMemory/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_TMemory/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4_TMemory/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5_TProc/.idea/Lab5_TProc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5_TProc/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5_TProc/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5_TProc/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5_TProc/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5_TProc/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,49 +54,12 @@
     <session id="4112623">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cpp" value="1" />
-          <entry key="h" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="ObjectiveC" value="2" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TFrac/TFrac.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TFrac/TFrac.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="77" column="20" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -94,28 +82,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Lab1_TFrac" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab1_TFrac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab1_TFrac" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab1_TFrac" type="462c0819:PsiDirectoryNode" />
-              <item name="TFrac" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab4_TMemory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab2_TPNumber" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -152,25 +125,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b374764e-8168-474f-98da-d5bca896d1e6" name="Default Changelist" comment="" />
-      <created>1540204451790</created>
+      <changelist id="2fa4eb49-b9fd-4650-b3f2-1965d0fb9cac" name="Default Changelist" comment="" />
+      <created>1540807388847</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540204451790</updated>
-      <workItem from="1540204455297" duration="431000" />
-      <workItem from="1540736290614" duration="1956000" />
+      <updated>1540807388847</updated>
+      <workItem from="1540807390160" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2387000" />
+    <option name="totallyTimeSpent" value="17000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12405446" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -178,15 +156,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,24 +167,5 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TFrac/TFrac.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="77" column="20" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TFrac/TFrac.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
