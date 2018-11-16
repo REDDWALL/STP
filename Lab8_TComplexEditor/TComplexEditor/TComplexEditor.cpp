@@ -1,4 +1,6 @@
 #include "TComplexEditor.h"
+#include "iostream"
+#include <ctype.h>
 
 const std::string TComplexEditor::ZERO = "0";
 const std::string TComplexEditor::DIVIDER = "+i*";
@@ -117,9 +119,42 @@ void TComplexEditor::editComplex(Operations operation) {
     }
 }
 
+bool TComplexEditor::complexValidation(std::string comp) {
+    bool isValid = false;
+    if (!comp.empty() && (comp.find("+i*") != std::string::npos || comp.find("-i*") != std::string::npos)) {
+        unsigned int position = comp.find('i');
+
+        std::string tempReal = comp;
+        std::string tempImag = comp;
+
+        std::string realPart = tempReal.erase(position - 1, comp.length());
+        std::string imagPart = tempImag.erase(0, position + 2);
+
+        int digitsCounter = 0;
+        for (char i : realPart) {
+            if (isdigit(i)) digitsCounter++;
+        }
+
+        for (char i : imagPart) {
+            if (isdigit(i)) digitsCounter++;
+        }
+
+        if (digitsCounter != 0) {
+            if (comp[0] == '-') {
+                if (digitsCounter == comp.length() - 4) isValid = true;
+            } else {
+                if (digitsCounter == comp.length() - 3) isValid = true;
+            }
+        }
+    }
+    return isValid;
+}
+
 void TComplexEditor::setComplex(std::string comp) {
-    if (comp.find(DIVIDER) != std::string::npos && !comp.empty()) {
+    if (complexValidation(comp)) {
         complex = comp;
+    } else {
+        std::cout << "\nНеверный формат ввода!";
     }
 }
 

@@ -12,15 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb914248-bb6f-4257-a110-8cc26de97f8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lab1_TFrac/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_TFrac/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2_TPNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2_TPNumber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3_TComplex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3_TComplex/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab5_TProc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5_TProc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5_TProc/TProc_test/TProc_test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5_TProc/TProc_test/TProc_test.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5_TProc/TProc_test/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5_TProc/TProc_test/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6_TEditor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/TEditor/TEditor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6_TEditor/TEditor/TEditor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/TEditor_test/TEditor_test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6_TEditor/TEditor_test/TEditor_test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7_TFracEditor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7_TFracEditor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7_TFracEditor/TFracEditor/TFracEditor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7_TFracEditor/TFracEditor/TFracEditor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7_TFracEditor/TFracEditor_test/TFracEditor_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7_TFracEditor/TFracEditor_test/TFracEditor_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TComplexEditor/TComplexEditor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TComplexEditor/TComplexEditor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TComplexEditor/TComplexEditor.h" beforeDir="false" afterPath="$PROJECT_DIR$/TComplexEditor/TComplexEditor.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,32 +32,37 @@
     <session id="-698866551">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="6" />
-          <entry key="h" value="4" />
+          <entry key="Lab8_TComplexEditor (disassembly)" value="1" />
+          <entry key="cpp" value="7" />
+          <entry key="h" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="10" />
+          <entry key="Disassembly" value="1" />
+          <entry key="ObjectiveC" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="502" />
-          <entry key="h" value="132" />
+          <entry key="cpp" value="1346" />
+          <entry key="h" value="160" />
+          <entry key="mm" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="634" />
+          <entry key="ObjectiveC" value="1516" />
         </counts>
       </usages-collector>
     </session>
@@ -68,14 +71,21 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TComplexEditor_test/main.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TComplexEditor/TComplexEditor.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="2550">
+              <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TComplexEditor_test/TComplexEditor_test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+            <state relative-caret-position="409">
+              <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -95,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TComplexEditor/TComplexEditor.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="188">
+              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -110,10 +120,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TComplexEditor_test/TComplexEditor_test.h" />
-        <option value="$PROJECT_DIR$/TComplexEditor_test/main.cpp" />
         <option value="$PROJECT_DIR$/TComplexEditor/TComplexEditor.h" />
         <option value="$PROJECT_DIR$/TComplexEditor_test/TComplexEditor_test.cpp" />
         <option value="$PROJECT_DIR$/TComplexEditor/TComplexEditor.cpp" />
+        <option value="$PROJECT_DIR$/TComplexEditor_test/main.cpp" />
       </list>
     </option>
   </component>
@@ -137,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,11 +168,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab7_TFracEditor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab5_TProc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -212,23 +222,25 @@
       <updated>1541909380758</updated>
       <workItem from="1541909382502" duration="4118000" />
       <workItem from="1541925548761" duration="8948000" />
+      <workItem from="1542098748945" duration="3744000" />
+      <workItem from="1542359567241" duration="6384000" />
+      <workItem from="1542366827365" duration="72000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13066000" />
+    <option name="totallyTimeSpent" value="23266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40655738" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3442623" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -237,6 +249,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -249,14 +262,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="editor.getComplex()" />
+        <watch expression="editor.getComplex()" />
+        <watch expression="editor" />
+        <watch expression="real == int()" />
+        <watch expression="real" />
+        <watch expression="real == int()" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TComplexEditor_test/TComplexEditor_test.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -267,30 +285,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TComplexEditor/TComplexEditor.cpp">
+    <entry file="file://$PROJECT_DIR$/TComplexEditor_test/TComplexEditor_test.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        <state relative-caret-position="340">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TComplexEditor_test/main.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/TComplexEditor_test/TComplexEditor_test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        <state relative-caret-position="409">
+          <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TComplexEditor_test/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TComplexEditor/TComplexEditor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TComplexEditor/TComplexEditor.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="188">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>

@@ -91,7 +91,7 @@ void TFracEditor::editFraction(Operations operation) {
         case ADD_ZERO:
             addZero();
             break;
-        case REMOVE_LAST_DIGIT:
+        case REMOVE_LAST_DIGIT:`
             removeLastDigit();
             break;
         case CLEAR:

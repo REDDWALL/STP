@@ -19,6 +19,7 @@ class TComplexEditor {
 private:
     std::string complex;
     ComplexPart currentPart;
+    bool complexValidation(std::string comp);
 public:
     static const std::string DIVIDER;
     static const std::string ZERO;
