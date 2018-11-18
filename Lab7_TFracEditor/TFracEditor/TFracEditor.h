@@ -18,6 +18,8 @@ private:
 
     void reduction();
 
+    bool fractionValidation(std::string frac);
+
 public:
     static const char DIVIDER;
     static const std::string ZERO;

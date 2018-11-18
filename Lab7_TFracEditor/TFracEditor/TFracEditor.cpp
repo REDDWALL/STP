@@ -1,3 +1,4 @@
+#include <iostream>
 #include "TFracEditor.h"
 
 const std::string TFracEditor::ZERO = "0/1";
@@ -91,7 +92,7 @@ void TFracEditor::editFraction(Operations operation) {
         case ADD_ZERO:
             addZero();
             break;
-        case REMOVE_LAST_DIGIT:`
+        case REMOVE_LAST_DIGIT:
             removeLastDigit();
             break;
         case CLEAR:
@@ -105,9 +106,42 @@ void TFracEditor::editFraction(Operations operation) {
     }
 }
 
+bool TFracEditor::fractionValidation(std::string frac) {
+    bool isValid = false;
+    if (!frac.empty() && (frac.find('/') != std::string::npos)) {
+        unsigned int position = frac.find('/');
+
+        std::string firstPart = frac;
+        std::string secondPart = frac;
+
+        std::string numerator = firstPart.erase(position, frac.length());
+        std::string denominator = secondPart.erase(0, position);
+
+        int digitsCounter = 0;
+        for (char i : numerator) {
+            if (isdigit(i)) digitsCounter++;
+        }
+
+        for (char i : denominator) {
+            if (isdigit(i)) digitsCounter++;
+        }
+
+        if (digitsCounter != 0) {
+            if (frac[0] == '-') {
+                if (digitsCounter == frac.length() - 2) isValid = true;
+            } else {
+                if (digitsCounter == frac.length() - 1) isValid = true;
+            }
+        }
+    }
+    return isValid;
+}
+
 void TFracEditor::setFraction(std::string frac) {
-    if (frac.back() != '/' && frac.find(DIVIDER) != std::string::npos && !frac.empty()) {
+    if (fractionValidation(frac)) {
         fraction = frac;
+    } else {
+        std::cout << "\nНеверный формат ввода!";
     }
 }
 

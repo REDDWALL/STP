@@ -39,8 +39,7 @@ void TFracEditor_test::clearTest() {
     TFracEditor editor;
     editor.addDigit(-1);
     editor.addDigit(-1);
-    //assert(editor.clear() == "0/1");
-
+    assert(editor.clear() == "0/1");
 }
 
 void TFracEditor_test::addDividerTest() {
