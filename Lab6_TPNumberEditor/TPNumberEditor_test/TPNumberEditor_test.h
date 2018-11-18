@@ -1,7 +1,7 @@
 #pragma once
 
 #include <cassert>
-#include "../TEditor/TEditor.h"
+#include "../TPNumberEditor/TPNumberEditor.h"
 
 using namespace std;
 

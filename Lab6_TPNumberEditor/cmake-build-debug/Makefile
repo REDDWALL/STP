@@ -47,10 +47,10 @@ RM = "D:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Studying\STP\Lab6_TEditor
+CMAKE_SOURCE_DIR = D:\Studying\STP\Lab6_TPNumberEditor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Studying\STP\Lab6_TEditor\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Studying\STP\Lab6_TPNumberEditor\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Studying\STP\Lab6_TEditor\cmake-build-debug\CMakeFiles D:\Studying\STP\Lab6_TEditor\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Studying\STP\Lab6_TPNumberEditor\cmake-build-debug\CMakeFiles D:\Studying\STP\Lab6_TPNumberEditor\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Studying\STP\Lab6_TEditor\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Studying\STP\Lab6_TPNumberEditor\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,59 +122,59 @@ Lab6_TEditor/fast:
 	$(MAKE) -f CMakeFiles\Lab6_TEditor.dir\build.make CMakeFiles/Lab6_TEditor.dir/build
 .PHONY : Lab6_TEditor/fast
 
-TEditor/TEditor.obj: TEditor/TEditor.cpp.obj
+TPNumberEditor/TPNumberEditor.obj: TPNumberEditor/TPNumberEditor.cpp.obj
 
-.PHONY : TEditor/TEditor.obj
-
-# target to build an object file
-TEditor/TEditor.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab6_TEditor.dir\build.make CMakeFiles/Lab6_TEditor.dir/TEditor/TEditor.cpp.obj
-.PHONY : TEditor/TEditor.cpp.obj
-
-TEditor/TEditor.i: TEditor/TEditor.cpp.i
-
-.PHONY : TEditor/TEditor.i
-
-# target to preprocess a source file
-TEditor/TEditor.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab6_TEditor.dir\build.make CMakeFiles/Lab6_TEditor.dir/TEditor/TEditor.cpp.i
-.PHONY : TEditor/TEditor.cpp.i
-
-TEditor/TEditor.s: TEditor/TEditor.cpp.s
-
-.PHONY : TEditor/TEditor.s
-
-# target to generate assembly for a file
-TEditor/TEditor.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab6_TEditor.dir\build.make CMakeFiles/Lab6_TEditor.dir/TEditor/TEditor.cpp.s
-.PHONY : TEditor/TEditor.cpp.s
-
-TEditor_test/main.obj: TEditor_test/main.cpp.obj
-
-.PHONY : TEditor_test/main.obj
+.PHONY : TPNumberEditor/TPNumberEditor.obj
 
 # target to build an object file
-TEditor_test/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab6_TEditor.dir\build.make CMakeFiles/Lab6_TEditor.dir/TEditor_test/main.cpp.obj
-.PHONY : TEditor_test/main.cpp.obj
+TPNumberEditor/TPNumberEditor.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab6_TEditor.dir\build.make CMakeFiles/Lab6_TEditor.dir/TPNumberEditor/TPNumberEditor.cpp.obj
+.PHONY : TPNumberEditor/TPNumberEditor.cpp.obj
 
-TEditor_test/main.i: TEditor_test/main.cpp.i
+TPNumberEditor/TPNumberEditor.i: TPNumberEditor/TPNumberEditor.cpp.i
 
-.PHONY : TEditor_test/main.i
+.PHONY : TPNumberEditor/TPNumberEditor.i
 
 # target to preprocess a source file
-TEditor_test/main.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab6_TEditor.dir\build.make CMakeFiles/Lab6_TEditor.dir/TEditor_test/main.cpp.i
-.PHONY : TEditor_test/main.cpp.i
+TPNumberEditor/TPNumberEditor.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab6_TEditor.dir\build.make CMakeFiles/Lab6_TEditor.dir/TPNumberEditor/TPNumberEditor.cpp.i
+.PHONY : TPNumberEditor/TPNumberEditor.cpp.i
 
-TEditor_test/main.s: TEditor_test/main.cpp.s
+TPNumberEditor/TPNumberEditor.s: TPNumberEditor/TPNumberEditor.cpp.s
 
-.PHONY : TEditor_test/main.s
+.PHONY : TPNumberEditor/TPNumberEditor.s
 
 # target to generate assembly for a file
-TEditor_test/main.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab6_TEditor.dir\build.make CMakeFiles/Lab6_TEditor.dir/TEditor_test/main.cpp.s
-.PHONY : TEditor_test/main.cpp.s
+TPNumberEditor/TPNumberEditor.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab6_TEditor.dir\build.make CMakeFiles/Lab6_TEditor.dir/TPNumberEditor/TPNumberEditor.cpp.s
+.PHONY : TPNumberEditor/TPNumberEditor.cpp.s
+
+TPNumberEditor_test/main.obj: TPNumberEditor_test/main.cpp.obj
+
+.PHONY : TPNumberEditor_test/main.obj
+
+# target to build an object file
+TPNumberEditor_test/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab6_TEditor.dir\build.make CMakeFiles/Lab6_TEditor.dir/TPNumberEditor_test/main.cpp.obj
+.PHONY : TPNumberEditor_test/main.cpp.obj
+
+TPNumberEditor_test/main.i: TPNumberEditor_test/main.cpp.i
+
+.PHONY : TPNumberEditor_test/main.i
+
+# target to preprocess a source file
+TPNumberEditor_test/main.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab6_TEditor.dir\build.make CMakeFiles/Lab6_TEditor.dir/TPNumberEditor_test/main.cpp.i
+.PHONY : TPNumberEditor_test/main.cpp.i
+
+TPNumberEditor_test/main.s: TPNumberEditor_test/main.cpp.s
+
+.PHONY : TPNumberEditor_test/main.s
+
+# target to generate assembly for a file
+TPNumberEditor_test/main.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab6_TEditor.dir\build.make CMakeFiles/Lab6_TEditor.dir/TPNumberEditor_test/main.cpp.s
+.PHONY : TPNumberEditor_test/main.cpp.s
 
 # Help Target
 help:
@@ -185,12 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... Lab6_TEditor
 	@echo ... rebuild_cache
-	@echo ... TEditor/TEditor.obj
-	@echo ... TEditor/TEditor.i
-	@echo ... TEditor/TEditor.s
-	@echo ... TEditor_test/main.obj
-	@echo ... TEditor_test/main.i
-	@echo ... TEditor_test/main.s
+	@echo ... TPNumberEditor/TPNumberEditor.obj
+	@echo ... TPNumberEditor/TPNumberEditor.i
+	@echo ... TPNumberEditor/TPNumberEditor.s
+	@echo ... TPNumberEditor_test/main.obj
+	@echo ... TPNumberEditor_test/main.i
+	@echo ... TPNumberEditor_test/main.s
 .PHONY : help
 
 

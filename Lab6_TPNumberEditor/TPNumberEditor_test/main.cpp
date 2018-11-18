@@ -1,4 +1,4 @@
-#include "TEditor_test.h"
+#include "TPNumberEditor_test.h"
 
 int main() {
     constructorTest();

@@ -1,4 +1,4 @@
-#include "TEditor.h"
+#include "TPNumberEditor.h"
 
 const std::string TEditor::ZERO = "0";
 const char TEditor::DIVIDER = '.';
