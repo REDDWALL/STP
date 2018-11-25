@@ -71,6 +71,6 @@ void TComplexEditor_test::editComplexTest() {
 
 void TComplexEditor_test::settersAndGettersTest() {
     TComplexEditor editor;
-    editor.setComplex("5+i*3");
+    editor.setComplex("+i*");
     assert(editor.getComplex() == "5+i*3");
 }

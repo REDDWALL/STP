@@ -12,10 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98ccc81b-09d6-4d64-b9aa-b86f4c5bc690" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lab1_TFrac/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_TFrac/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4_TMemory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4_TMemory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3_TComplex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3_TComplex/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TProc_test/TProc_test.h" beforeDir="false" afterPath="$PROJECT_DIR$/TProc_test/TProc_test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TProc_test/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TProc_test/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6_TPNumberEditor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6_TPNumberEditor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7_TFracEditor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7_TFracEditor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7_TFracEditor/TFracEditor_test/TFracEditor_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7_TFracEditor/TFracEditor_test/TFracEditor_test.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab8_TComplexEditor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8_TComplexEditor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8_TComplexEditor/TComplexEditor_test/TComplexEditor_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8_TComplexEditor/TComplexEditor_test/TComplexEditor_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9_TSet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9_TSet/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,20 +37,31 @@
     <session id="-1917308740">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="2" />
-          <entry key="h" value="4" />
+          <entry key="h" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="6" />
+          <entry key="ObjectiveC" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="4" />
+          <entry key="h" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="31" />
         </counts>
       </usages-collector>
     </session>
@@ -50,22 +69,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TProc_test/TProc_test.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="46" selection-start-line="46" selection-end-line="46" selection-end-column="21" />
-              <folding>
-                <element signature="e#14#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TProc/TProc.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="1156">
+              <caret line="68" column="17" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="17" />
               <folding>
                 <element signature="e#119#128#0" expanded="true" />
               </folding>
@@ -76,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TFrac/TFrac.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" selection-start-line="5" selection-end-line="8" />
+            <state relative-caret-position="952">
+              <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="63" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -85,15 +92,31 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TFrac/TFrac.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="222">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TProc_test/main.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TProc_test/TProc_test.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -104,8 +127,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TProc_test/TProc_test.h" />
         <option value="$PROJECT_DIR$/TProc/TProc.h" />
+        <option value="$PROJECT_DIR$/TProc_test/main.cpp" />
+        <option value="$PROJECT_DIR$/TProc_test/TProc_test.h" />
       </list>
     </option>
   </component>
@@ -128,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,7 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,16 +230,18 @@
       <workItem from="1542099471440" duration="1312000" />
       <workItem from="1542368442577" duration="2204000" />
       <workItem from="1542434941486" duration="347000" />
+      <workItem from="1542690364986" duration="2163000" />
+      <workItem from="1543120534247" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5094000" />
+    <option name="totallyTimeSpent" value="7272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22163388" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22768533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -246,38 +272,42 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TProc/TProc.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="1156">
+          <caret line="68" column="17" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="17" />
           <folding>
             <element signature="e#119#128#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TFrac/TFrac.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="63" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TProc_test/main.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TProc_test/TProc_test.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="46" selection-start-line="46" selection-end-line="46" selection-end-column="21" />
+        <state relative-caret-position="222">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
           <folding>
             <element signature="e#14#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TFrac/TFrac.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" selection-start-line="5" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TFrac/TFrac.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="222">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

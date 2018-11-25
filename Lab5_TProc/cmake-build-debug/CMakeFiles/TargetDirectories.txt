@@ -1,0 +1,3 @@
+D:/Studying/STP/Lab5_TProc/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Studying/STP/Lab5_TProc/cmake-build-debug/CMakeFiles/Lab5_TProc.dir
+D:/Studying/STP/Lab5_TProc/cmake-build-debug/CMakeFiles/rebuild_cache.dir

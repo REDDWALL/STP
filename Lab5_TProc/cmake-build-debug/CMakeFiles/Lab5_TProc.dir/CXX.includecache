@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Studying/STP/Lab5_TProc/TFrac/TFrac.h
+string
+-
+
+D:/Studying/STP/Lab5_TProc/TProc/TProc.h
+
+D:/Studying/STP/Lab5_TProc/TProc_test/TProc_test.h
+cassert
+-
+../TProc/TProc.h
+D:/Studying/STP/Lab5_TProc/TProc/TProc.h
+../TFrac/TFrac.h
+D:/Studying/STP/Lab5_TProc/TFrac/TFrac.h
+
+D:/Studying/STP/Lab5_TProc/TProc_test/main.cpp
+TProc_test.h
+D:/Studying/STP/Lab5_TProc/TProc_test/TProc_test.h
+

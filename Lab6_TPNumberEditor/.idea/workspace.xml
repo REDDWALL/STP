@@ -12,21 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57bcf4ad-4a2e-4aa3-b1a4-beae7420b441" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/.idea/Lab6_TEditor.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/TPNumberEditor/TPNumberEditor.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/TPNumberEditor/TPNumberEditor.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/TPNumberEditor_test/TPNumberEditor_test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/TPNumberEditor_test/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6_TEditor/Практическая работа 6. Редактор р_ичных чисел.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8_TComplexEditor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8_TComplexEditor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,10 +60,12 @@
     <session id="-1815111405">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -117,16 +105,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TPNumberEditor_test/TPNumberEditor_test.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            <state>
+              <caret selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -201,7 +189,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab10_TPoly" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -254,16 +242,18 @@
       <workItem from="1542516138667" duration="437000" />
       <workItem from="1542516747866" duration="64000" />
       <workItem from="1542516838093" duration="98000" />
+      <workItem from="1542529654921" duration="569000" />
+      <workItem from="1542552155717" duration="179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19926000" />
+    <option name="totallyTimeSpent" value="20674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2927383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30181542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -301,6 +291,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TPNumberEditor_test/main.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/TPNumberEditor/TPNumberEditor.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -315,20 +308,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TPNumberEditor_test/TPNumberEditor_test.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TPNumberEditor_test/main.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TPNumberEditor_test/TPNumberEditor_test.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="12" />
         </state>
       </provider>
     </entry>

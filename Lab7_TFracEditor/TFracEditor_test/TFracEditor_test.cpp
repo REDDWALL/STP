@@ -68,6 +68,6 @@ void TFracEditor_test::editFracTest() {
 
 void TFracEditor_test::settersAndGettersTest() {
     TFracEditor editor;
-    editor.setFraction("1/5");
+    editor.setFraction("1//5");
     assert(editor.getFraction() == "1/5");
 }

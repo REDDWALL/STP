@@ -67,3 +67,16 @@ void settersTest() {
     assert(proc.Rop_Get() == frac_2);
     assert(proc.OprtnGet() == Mul);
 }
+
+void operationTest() {
+    TProc<int> proc = TProc<int>();
+    proc.Lop_Res_Set(2);
+    proc.Rop_Set(1);
+    proc.OprtnSet(Dvd);
+    proc.OprtnRun();
+    proc.Rop_Set(3);
+    proc.OprtnSet(Add);
+    proc.OprtnRun();
+
+    assert(proc.Lop_Res_Get() == 5);
+}
