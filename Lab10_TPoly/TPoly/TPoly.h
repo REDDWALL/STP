@@ -8,7 +8,9 @@ class TPoly {
 private:
     std::list<TMember> polynomial;
 public:
-    TPoly(int c = 0, int n = 0);
+    TPoly(int c, int n);
+
+    TPoly();
 
     int getMaxPower();
 

@@ -1,10 +1,13 @@
 #include <cmath>
 #include <list>
+#include <algorithm>
 #include "TPoly.h"
 
 TPoly::TPoly(int c, int n) {
     polynomial.emplace_back(TMember(c, n));
 }
+
+TPoly::TPoly() = default;
 
 int TPoly::getMaxPower() {
     int maxPower = 0;
@@ -33,22 +36,26 @@ void TPoly::clear() {
 TPoly TPoly::operator+(const TPoly &secondPoly) {
     TPoly result;
 
-    if (polynomial.size() == secondPoly.polynomial.size()) {
-        for (int i = 0; i < polynomial.size(); i++) {
-            if (getElement(i).getPower() == secondPoly.getElement(i).getPower()) {
-                result.polynomial.emplace_back(
-                        getElement(i).getCoefficient() + secondPoly.getElement(i).getCoefficient(),
-                                               getElement(i).getPower());
-            }
+    for (int i = 0; i < polynomial.size(); i++) {
+        if (getElement(i).getPower() == secondPoly.getElement(i).getPower()) {
+            result.polynomial.emplace_back(getElement(i).getCoefficient() + secondPoly.getElement(i).getCoefficient(),
+                                           getElement(i).getPower());
         }
-    } else return TPoly(0, 0);
-
+    }
     return result;
 }
 
 TPoly TPoly::operator+(const TMember &member) {
     TPoly result = *this;
     result.polynomial.push_back(member);
+
+    for (int i = 0; i < result.polynomial.size(); i++) {
+        if (getElement(i).getPower() == member.getPower()) {
+            TMember newMember = TMember(getElement(i).getCoefficient() + member.getCoefficient(),
+                                        getElement(i).getPower());
+            std::replace(result.polynomial.begin(), result.polynomial.end(), getElement(i), newMember);
+        }
+    }
     return result;
 }
 
@@ -57,16 +64,18 @@ TPoly TPoly::operator*(const TPoly &secondPoly) {
     TPoly result;
 
     temp.polynomial.remove(TMember(0, 0));
-    for (TMember mem : polynomial) {
-        for (TMember secMem : secondPoly.polynomial) {
-            temp.polynomial.emplace_back(mem.getCoefficient() * secMem.getCoefficient(), mem.getPower() + secMem.getPower());
+    for (TMember member : polynomial) {
+        for (TMember secondMember : secondPoly.polynomial) {
+            temp.polynomial.emplace_back(member.getCoefficient() * secondMember.getCoefficient(),
+                                         member.getPower() + secondMember.getPower());
         }
     }
 
     for (int i = 0; i < temp.polynomial.size(); i++) {
         if (temp.getElement(i).getPower() == temp.getElement(i + 1).getPower()) {
-            TMember member(temp.getElement(i).getCoefficient() + temp.getElement(i + 1).getCoefficient(), temp.getElement(i).getPower());
-            result.polynomial.push_back(member);
+            TMember newMember(temp.getElement(i).getCoefficient() + temp.getElement(i + 1).getCoefficient(),
+                              temp.getElement(i).getPower());
+            result.polynomial.push_back(newMember);
             i++;
         } else result.polynomial.push_back(temp.getElement(i));
     }
@@ -76,21 +85,20 @@ TPoly TPoly::operator*(const TPoly &secondPoly) {
 TPoly TPoly::operator-(const TPoly &secondPoly) {
     TPoly result;
 
-    if (polynomial.size() == secondPoly.polynomial.size()) {
-        for (int i = 0; i < polynomial.size(); i++) {
-            if (getElement(i).getPower() == secondPoly.getElement(i).getPower()) {
-                result.polynomial.emplace_back(
-                        getElement(i).getCoefficient() - secondPoly.getElement(i).getCoefficient(),
-                                               getElement(i).getPower());
+    for (int i = 0; i < polynomial.size(); i++) {
+        if (getElement(i).getPower() == secondPoly.getElement(i).getPower()) {
+            TMember member(getElement(i).getCoefficient() - secondPoly.getElement(i).getCoefficient(),
+                           getElement(i).getPower());
+            if (member.getCoefficient() != 0) {
+                result.polynomial.emplace_back(member);
             }
-        }
-    } else return TPoly(0, 0);
-
+        } else result.polynomial.push_back(getElement(i));
+    }
     return result;
 }
 
 TPoly TPoly::subtract() {
-    return TPoly(0, 0) + TMember(-(getElement(0).getCoefficient()), getElement(0).getPower());
+    return TPoly(-(getElement(0).getCoefficient()), getElement(0).getPower());
 }
 
 bool TPoly::operator==(const TPoly &secondPoly) {

@@ -32,30 +32,46 @@ void TPoly_test::additionTest() {
     TPoly poly_1 = TPoly(3, 2) + TMember(-2, 1) + TMember(7, 0);
     TPoly poly_2 = TPoly(5, 2) + TMember(4, 1) + TMember(-3, 0);
     TPoly poly_3 = poly_1 + poly_2;
-    assert(poly_3.getElement(1).getPolynomialString() == "8*x^2");
-    assert(poly_3.getElement(2).getPolynomialString() == "2*x^1");
-    assert(poly_3.getElement(3).getPolynomialString() == "4");
+    assert(poly_3.getElement(0).getPolynomialString() == "8*x^2");
+    assert(poly_3.getElement(1).getPolynomialString() == "2*x^1");
+    assert(poly_3.getElement(2).getPolynomialString() == "4");
+
+    TPoly poly_4 = TPoly(1, 2) + TMember(1, 0);
+    TMember poly_5 = TMember(1, 2);
+    TPoly poly_6 = poly_4 + poly_5;
+    assert(poly_6.getElement(0).getPolynomialString() == "2*x^2");
+    assert(poly_6.getElement(1).getPolynomialString() == "1");
 }
 
 void TPoly_test::multiplicationTest() {
     TPoly poly_1 = TPoly(2, 2) + TMember(3, 1);
     TPoly poly_2 = TPoly(3, 2) + TMember(2, 1);
     TPoly poly_3 = poly_1 * poly_2;
-    assert(poly_3.getElement(1).getPolynomialString() == "6*x^4");
-    assert(poly_3.getElement(2).getPolynomialString() == "13*x^3");
-    assert(poly_3.getElement(3).getPolynomialString() == "6*x^2");
+    assert(poly_3.getElement(0).getPolynomialString() == "6*x^4");
+    assert(poly_3.getElement(1).getPolynomialString() == "13*x^3");
+    assert(poly_3.getElement(2).getPolynomialString() == "6*x^2");
+
+    TPoly poly_4 = TPoly(1, 2) + TMember(1, 0);
+    TPoly poly_5 = TPoly(1, 2);
+    TPoly poly_6 = poly_4 * poly_5;
+    assert(poly_6.getElement(0).getPolynomialString() == "1*x^4");
+    assert(poly_6.getElement(1).getPolynomialString() == "1*x^2");
 }
 
 void TPoly_test::subtractionTest() {
     TPoly poly_1 = TPoly(1, 3) + TMember(-2, 1) + TMember(7, 0);
     TPoly poly_2 = TPoly(7, 3) + TMember(-4, 1) + TMember(7, 0);
     TPoly poly_3 = poly_1 - poly_2;
-    assert(poly_3.getElement(1).getPolynomialString() == "-6*x^3");
-    assert(poly_3.getElement(2).getPolynomialString() == "2*x^1");
-    assert(poly_3.getElement(3).getPolynomialString() == "0");
+    assert(poly_3.getElement(0).getPolynomialString() == "-6*x^3");
+    assert(poly_3.getElement(1).getPolynomialString() == "2*x^1");
 
     TPoly poly_4 = TPoly(5, 2).subtract();
-    assert(poly_4.getElement(1).getPolynomialString() == "-5*x^2");
+    assert(poly_4.getElement(0).getPolynomialString() == "-5*x^2");
+
+    TPoly poly_5 = TPoly(1, 2) + TMember(1, 0);
+    TPoly poly_6 = TPoly(1, 2);
+    TPoly poly_7 = poly_5 - poly_6;
+    assert(poly_7.getElement(0).getPolynomialString() == "1");
 }
 
 void TPoly_test::equalityTest() {
@@ -67,8 +83,9 @@ void TPoly_test::equalityTest() {
 void TPoly_test::differentiationTest() {
     TPoly poly = TPoly(1, 3) + TMember(7, 2) + TMember(5, 1);
     TPoly result = poly.differentiate();
-    assert(result.getElement(1).getPolynomialString() == "3*x^2");
-    assert(result.getElement(2).getPolynomialString() == "14*x^1");
+    assert(result.getElement(0).getPolynomialString() == "3*x^2");
+    assert(result.getElement(1).getPolynomialString() == "14*x^1");
+    assert(result.getElement(2).getPolynomialString() == "5");
 }
 
 void TPoly_test::calculationTest() {
